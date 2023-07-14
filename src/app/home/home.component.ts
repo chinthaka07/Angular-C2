@@ -7,13 +7,7 @@ import {Component} from "@angular/core";
 })
 export class HomeComponent {
 
-  data:string='';
-
   setData(value:string){
-    this.data=value
-
-  }
-  printData(){
-    console.log(this.data)
+    console.log(value)
   }
 }

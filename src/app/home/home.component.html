@@ -1,5 +1,4 @@
 <input type="text"
        #myVar
-       (keyup)="setData(myVar.value)"
-       placeholder="type here"> |
-<button (click)="printData()">Print Data</button>
+       (keyup.enter)="setData(myVar.value)"
+       placeholder="type here">
