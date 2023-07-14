@@ -2,8 +2,10 @@ import {Component} from "@angular/core";
 
 @Component({
   selector:'app-home',
-  template:'<h1>Hello i am the Template</h1>'
+  templateUrl:'./home.component.html',
+  styleUrls:['./home.component.scss']
 })
 export class HomeComponent {
-
+  name:string='Samantha B';
+  age:number=52
 }
