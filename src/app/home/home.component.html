@@ -1,1 +1,5 @@
-<img [src]="image" alt="image" [width]="width">
+<input type="text"
+       #myVar
+       (keyup)="setData(myVar.value)"
+       placeholder="type here"> |
+<button (click)="printData()">Print Data</button>
